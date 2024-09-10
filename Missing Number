@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    cin<<enter arr
+    //int arr[] = {1, 3};  // Given array
+    int n = 3;  // The range is from 1 to 3, so n is the largest number in the range
+    int expected_sum = (n * (n + 1)) / 2;  // Sum of numbers from 1 to 3
+    int actual_sum = 0;
+
+    // Calculate the sum of the elements in the array
+    for (int i = 0; i < 2; i++) {
+        actual_sum += arr[i];
+    }
+
+    // The missing number is the difference between the expected sum and the actual sum
+    int missing_number = expected_sum - actual_sum;
+
+    // Output the missing number
+    printf("The missing number is: %d\n", missing_number);
+
+    return 0;
+}
